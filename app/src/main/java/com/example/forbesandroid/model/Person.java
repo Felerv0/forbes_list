@@ -1,9 +1,9 @@
 package com.example.forbesandroid.model;
 
 public class Person {
-    String name;
-    int flag;
-    String netWorth;
+    private String name;
+    private int flag;
+    private String netWorth;
 
     public Person(String name, int flag, String netWorth) {
         this.name = name;
